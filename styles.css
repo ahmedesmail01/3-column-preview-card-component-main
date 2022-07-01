@@ -1,0 +1,68 @@
+:root {
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
+}
+.container {
+  height: 80vh;
+  margin: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  position: relative;
+}
+.row h2 {
+  color: var(--Very-light-gray);
+  font-size: 2.5rem;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 1rem;
+}
+.row p {
+  color: var(--Transparent-white);
+  font-size: 1.2rem;
+  font-family: "Lexend Deca", sans-serif;
+  margin-bottom: 3rem;
+}
+.row a {
+  text-decoration: none;
+  color: var(--Very-light-gray);
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid var(--Very-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+}
+.row a:hover {
+  background-color: var(--Very-light-gray);
+}
+.sed {
+  background-color: var(--Bright-orange);
+  border-radius: 5px 0 0 5px;
+}
+.sed a:hover {
+  color: var(--Bright-orange);
+}
+.suv {
+  background-color: var(--Dark-cyan);
+}
+.suv a:hover {
+  color: var(--Dark-cyan);
+}
+.lux {
+  background-color: var(--Very-dark-cyan);
+  border-radius: 0 5px 5px 0;
+}
+.lux a:hover {
+  color: var(--Very-dark-cyan);
+}
+.attribution {
+  margin-top: 20px;
+  text-align: center;
+}
